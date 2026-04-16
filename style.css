@@ -6,6 +6,7 @@
   body {
     font-family: helvetica, arial, sans-serif;
     margin: 25px;
+    background-color: aquamarine;
   }
   
   main {
@@ -20,6 +21,8 @@
   h1 {
     font-weight: bold;
     color: #000;
+    text-align: center;
+    font-size: 48px;
   }
   
   .bold {
@@ -46,7 +49,8 @@
   }
   
   .pet-image {
-    height:250px;
+    height:300px;
+    width: auto;  
   }
   
   .dashboard div {
@@ -57,10 +61,54 @@
     float:left;
     padding:10px;
   }
+
+  .name-input {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .punching-bag {
+    float:right;
+    padding:10px;
+  }
+
+  .punching-bag-image {
+    width: 350px;
+    height: 350px;
+  }
   
   .dashboard {
     float:left;
     padding:20px;
+    background-color: #f0f0f0;
+    border-color: #d0d0d0;
+    border-width: 1px;
+    border-style: solid;
+    display: inline;
+    width: auto;
+    height: auto;
+    position: center;
+  }
+
+  .attack-button {
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+    position: relative;
+    width: 97%;
+      margin-right: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      display: inline-block;
+    font-size:15px;
+
   }
   
   .button-container {
@@ -79,4 +127,16 @@
     cursor:pointer;
     background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
     color: #fafafa;
+  }
+  #pet-comment {
+    width: 320px;
+    height: 100px;
+    align-self: start;
+    margin-top:10px;
+    background-color: aliceblue;
+    border-color: aqua;
+    border-width: 10px;
+    border-style: solid;
+    float: left;
+
   }
